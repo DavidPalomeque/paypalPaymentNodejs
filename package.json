@@ -1,0 +1,22 @@
+{
+  "name": "paypalpayment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "paypal-rest-sdk": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
